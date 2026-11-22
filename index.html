@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOUR | Business Solutions</title>
+    <meta name="description" content="NOUR Business Solutions provides professional business consulting, digital solutions, marketing and business development services.">
+    <meta name="theme-color" content="#10243e">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">NOUR<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="navLinks">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+        <div class="hero-decoration decoration-one"></div>
+        <div class="hero-decoration decoration-two"></div>
+
+        <div class="hero-content">
+            <p class="subtitle reveal">WELCOME TO NOUR</p>
+            <h1 class="reveal"><span id="typingText"></span></h1>
+
+            <p class="hero-description reveal">
+                We provide professional business and digital
+                solutions designed to help businesses grow,
+                improve and succeed.
+            </p>
+
+            <div class="hero-buttons reveal">
+                <a href="#services" class="btn">Discover Our Services →</a>
+                <a href="#contact" class="btn btn-outline">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>SCROLL TO EXPLORE</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about section-padding">
+        <div class="section-heading reveal">
+            <p class="subtitle">GET TO KNOW US</p>
+            <h2>About NOUR</h2>
+            <div class="heading-line"></div>
+        </div>
+
+        <div class="about-content reveal">
+            <p>
+                NOUR Business Solutions is a professional business
+                dedicated to providing innovative solutions and
+                services to individuals and organisations.
+
+                We believe in creativity, professionalism and
+                continuous improvement.
+
+                Our mission is to support businesses in achieving
+                their goals through effective strategies and
+                modern digital solutions.
+            </p>
+        </div>
+
+        <div class="about-highlight">
+            <div class="highlight-card reveal">
+                <div class="highlight-icon">✦</div>
+                <h3>Our Vision</h3>
+                <p>Creating opportunities through innovation
+                    and building a better business future.</p>
+            </div>
+
+            <div class="highlight-card reveal">
+                <div class="highlight-icon">◆</div>
+                <h3>Our Mission</h3>
+                <p>Helping businesses grow through
+                    professional services and modern solutions.</p>
+            </div>
+
+            <div class="highlight-card reveal">
+                <div class="highlight-icon">★</div>
+                <h3>Our Values</h3>
+                <p>Professionalism, creativity, trust
+                    and continuous improvement.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services section-padding">
+        <div class="section-heading reveal">
+            <p class="subtitle">WHAT WE OFFER</p>
+            <h2>Our Services</h2>
+            <div class="heading-line"></div>
+            <p class="section-description">
+                Professional solutions designed to move
+                your business forward.
+            </p>
+        </div>
+
+        <div class="service-search reveal">
+            <input type="search" id="serviceSearch"
+                placeholder="Search for a service..."
+                aria-label="Search services">
+            <span class="search-icon">⌕</span>
+        </div>
+
+        <div class="service-container">
+            <article class="service-card reveal">
+                <div class="service-icon">01</div>
+                <h3>Business Consulting</h3>
+                <p>Providing professional guidance and
+                    strategies to help businesses make
+                    informed decisions.</p>
+                <a href="#contact" class="service-link">Learn More →</a>
+            </article>
+
+            <article class="service-card reveal">
+                <div class="service-icon">02</div>
+                <h3>Digital Solutions</h3>
+                <p>Helping businesses improve their
+                    digital presence through modern
+                    technology and innovative solutions.</p>
+                <a href="#contact" class="service-link">Learn More →</a>
+            </article>
+
+            <article class="service-card reveal">
+                <div class="service-icon">03</div>
+                <h3>Marketing Services</h3>
+                <p>Supporting businesses in developing
+                    their brand identity and reaching
+                    their target audience.</p>
+                <a href="#contact" class="service-link">Learn More →</a>
+            </article>
+
+            <article class="service-card reveal">
+                <div class="service-icon">04</div>
+                <h3>Business Development</h3>
+                <p>Supporting business growth through
+                    planning, development and new
+                    opportunities.</p>
+                <a href="#contact" class="service-link">Learn More →</a>
+            </article>
+        </div>
+
+        <p id="noResults" aria-live="polite">
+            No matching services found.
+        </p>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq section-padding">
+        <div class="section-heading reveal">
+            <p class="subtitle">NEED HELP?</p>
+            <h2>Frequently Asked Questions</h2>
+            <div class="heading-line"></div>
+        </div>
+
+        <div class="faq-container">
+            <div class="faq-item reveal">
+                <button class="faq-question" aria-expanded="false">
+                    <span>What services does NOUR provide?</span>
+                    <span class="faq-symbol">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>NOUR provides business consulting,
+                        digital solutions, marketing and
+                        business development services.</p>
+                </div>
+            </div>
+
+            <div class="faq-item reveal">
+                <button class="faq-question" aria-expanded="false">
+                    <span>How can I contact NOUR?</span>
+                    <span class="faq-symbol">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>You can use our contact form to
+                        send us an enquiry about our services.</p>
+                </div>
+            </div>
+
+            <div class="faq-item reveal">
+                <button class="faq-question" aria-expanded="false">
+                    <span>Does NOUR work with small businesses?</span>
+                    <span class="faq-symbol">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Our services are designed to support
+                        businesses at different stages
+                        of growth.</p>
+                </div>
+            </div>
+
+            <div class="faq-item reveal">
+                <button class="faq-question" aria-expanded="false">
+                    <span>How can I request a service?</span>
+                    <span class="faq-symbol">+</span>
+                </button>
+                <div class="faq-answer">
+                    <p>Complete our contact form and
+                        describe the service you require.
+                        Our team can then follow up with you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact section-padding">
+        <div class="section-heading reveal">
+            <p class="subtitle">GET IN TOUCH</p>
+            <h2>Contact Us</h2>
+            <div class="heading-line"></div>
+            <p class="section-description">
+                Have a question or want to work with us?
+                Send us a message.
+            </p>
+        </div>
+
+        <form id="contactForm" class="contact-form reveal">
+            <div class="form-group">
+                <input type="text" id="name"
+                    placeholder="Enter your name"
+                    minlength="2" maxlength="100"
+                    autocomplete="name" required>
+            </div>
+
+            <div class="form-group">
+                <input type="email" id="email"
+                    placeholder="Enter your email"
+                    autocomplete="email" required>
+            </div>
+
+            <div class="form-group">
+                <textarea id="message"
+                    placeholder="Write your message"
+                    maxlength="500" required></textarea>
+                <small id="charCount">0 / 500 characters</small>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Send Message →
+            </button>
+        </form>
+
+        <p id="response" aria-live="polite"></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h2>NOUR<span>.</span></h2>
+        <p>Business Solutions | Innovation | Growth</p>
+        <div class="footer-line"></div>
+        <p class="copyright">
+            © 2026 NOUR Business Solutions. All Rights Reserved.
+        </p>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button id="backToTop" title="Back to top"
+        aria-label="Back to top">↑</button>
+
+    <!-- CHATBOT -->
+    <div class="chatbot-container" id="chatbotContainer"
+        aria-label="NOUR AI Assistant">
+        <div class="chatbot-header">
+            <div>
+                <h3>NOUR AI Assistant</h3>
+                <p id="chatStatus">How can we help you today?</p>
+            </div>
+            <button id="close-chat" aria-label="Close chatbot">×</button>
+        </div>
+
+        <div id="chat-messages" aria-live="polite">
+            <div class="bot-message">
+                Hello! Welcome to NOUR Business Solutions.
+                How can I assist you?
+            </div>
+        </div>
+
+        <div class="chatbot-input">
+            <input type="text" id="user-input"
+                placeholder="Type your message..."
+                maxlength="1000" aria-label="Your message">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <button id="chat-toggle">💬 Chat with NOUR</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
